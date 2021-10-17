@@ -1,0 +1,131 @@
+.footer{
+    background-color: rgb(228, 26, 26);
+    padding: 30px;
+    display: flex;
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+.ic{
+    background-color: white;
+    width: 25px;
+    border-radius: 50%;
+    height: 25px;
+}
+
+.num{
+    padding-left: 180px;
+    display: flex;
+}
+
+.det{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 4px;
+}
+
+.imfb{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.faph{
+    padding-top: 6px;
+
+}
+
+.fb{
+    padding-left: 300px;
+    display: flex;
+}
+
+.web{
+    padding-left: 300px;
+    display: flex;
+}
+
+
+.numspl{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.ic3{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 480px){
+    .footer{
+        background-color: rgb(228, 26, 26);
+        padding:10px;
+        display: flex;
+        background-size: cover;
+        width: 430px;
+    }
+    
+    
+    
+    .ic{
+        background-color: rgb(255, 255, 255);
+        width: 25px;
+        border-radius: 50%;
+        height: 25px;
+    }
+    
+    .num{
+        padding-left: 0px;
+        display: flex;
+    }
+    
+    .det{
+        color: white;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+        font-size: 9px;
+        padding-left: 4px;
+    }
+    
+    .imfb{
+        padding-top: 10px;
+        padding-left: 5px;
+    }
+    
+    .faph{
+        padding-top: 6px;
+    
+    }
+    
+    .fb{
+        padding-left: 9px;
+        display: flex;
+    }
+    
+    .web{
+        padding-left: 7px;
+        display: flex;
+    }
+    
+    
+    .numspl{
+        color: rgb(255, 255, 255);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 9px;
+        font-weight: 900;
+    }
+    
+    .ic3{
+        width: 25px;
+        height: 25px;
+        background-color: white;
+        border-radius: 50%;
+    }
+}
